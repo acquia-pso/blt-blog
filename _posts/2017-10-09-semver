@@ -1,0 +1,23 @@
+---
+title: BLT is moving to Semver
+layout: post
+---
+
+Soon, BLT will switch to using real semantic versioning. That means that we will no longer attempt to lock the first digit of BLT's version to the Drupal major version (8). The next major version will be 9.0.0. This change allows us to better indicate when breaking changes are made.
+
+The impending release of Drush 9  is a good opportunity to cut a new major version of BLT. The next major version, version 9.x, will require Drush 9+. 
+
+* BLT 8.9.x will continue to receive bug fixes through 12/17. This branch is compatible with both Drush 8 and 9.
+* BLT 9.0.X will require Drush 9 and will have no other new features.
+* BLT 9.1.x will introduce a number of new features that have been developed over the last couple of months.  this is currently the default branch for new pull requests and the correct location for new feature development.
+
+See the table below for more information:
+
+
+| Major Version | Support Status              | Drupal | Drush          | Dev Status   |
+|---------------|-----------------------------|--------|----------------|--------------|
+| 9.1.x         | Supported                   | >=8.4  | >=9.0.0-beta6  | \*active dev |
+| 9.0.x         | Supported                   | >=8.4  | >=9.0.0-beta6  | bug fixes    |
+| 8.9.x         | LTS thru 12/17              | <=8.4  | 8\|9.0.0-beta4 | bug fixes    |
+| 8.8.x         | Unsupported, EOL            | <=8.3  | ~8             |              |
+| 8.7.x         | Unsupported, EOL            | <=8.3  | ~8             |              |
