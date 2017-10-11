@@ -2,6 +2,10 @@
 # This file contains configuration flags to customize your site
 #
 
+theme: jekyll-theme-architect
+plugins:
+  - jekyll-feed
+
 # Name of your site (displayed in the header)
 name: BLT
 
@@ -25,7 +29,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: https://acquia-pso.github.io/blt-blog/feed.xml
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
