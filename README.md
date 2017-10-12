@@ -7,7 +7,7 @@ BLT Resources:
 - [BLT Blog](https://acquia-pso.github.io/blt-blog/)
 - [RSS Feed](https://acquia-pso.github.io/blt-blog/feed.xml)
 - [BLT](https://github.com/acquia/blt)
-- [Read the Docs](http://blt.readthedocs.io):
+- [Read the Docs](http://blt.readthedocs.io)
 
 ## Contributing
 
